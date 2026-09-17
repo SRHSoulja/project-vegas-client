@@ -73,3 +73,9 @@ This demonstrates signed candidate installation, clearer menu-guided recovery an
 **Safe to report:** version, step number, success/failure, ordinary error wording, rough wait time and confusing labels. An address is public but unnecessary to share; say 'matches' or 'does not match'. **Never send:** passphrase, encrypted backup contents, spend/recovery keys, decrypted notes or witness files. No recording of secret entry is needed.
 
 The first human session remains recorded exactly as setup and fresh-directory backup restoration. This follow-up does not replace that evidence. V1.7 stays open; full transaction integration and public-release token recovery are not claimed complete. GitHub remains the only durable source.
+
+## If restoration says the backup is incomplete
+
+Alpha.2 has a confirmed misleading error when the selected file does not exist. A short filename is looked up in your current terminal directory, which may be a newly created download subdirectory. This message alone does **not** establish that your backup is damaged.
+
+Choose2 again and enter the **complete existing backup path**, beginning with `/home/...`, from its original location. Do not enter only the filename or literal `$HOME`. Choose a new destination directory. Wait for **Identity restored** before choosing7. No backup or passphrase should be sent to support. The source fix will ship in a new authenticated version; this historical archive is not replaced.
