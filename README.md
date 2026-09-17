@@ -67,3 +67,7 @@ GitHub is the sole durable distribution source. Second-mirror/Arweave publicatio
 The authenticated archive contains an allowlisted client source subset, pinned dependency locks and license notices; it does not publish the private project repository. Source commit and all binary/artifact hashes are in `manifest.json`.
 
 Release builders: use Go 1.27.1 and Linux `bwrap`, then invoke `apps/reference-client/scripts/canonical-build.py SOURCE_ROOT GO_SDK_ROOT NEW_WORK_DIRECTORY`. Its canonical namespace paths are part of the recipe because gnark-crypto assembly retains absolute module-cache paths despite `-trimpath`. It creates a fresh dependency/build cache and outputs `NEW_WORK_DIRECTORY/vegas`. Compare its SHA256 to manifest role `client`. The Go-client byte-equality result does not itself establish reproduction of the separately bundled frozen Rust workers or Node distribution.
+
+## Second setup candidate
+
+[Alpha.2 guided restore/restart study](ALPHA2_STUDY.md) is available as a separate authenticated candidate. Its guide uses an isolated study home to preserve the existing alpha.1 installation and identity. No transaction funding is required. Alpha.1 release assets and the original instructions above remain unchanged. Full V1.7 transaction/recovery acceptance remains open.
