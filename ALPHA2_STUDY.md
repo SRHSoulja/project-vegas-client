@@ -1,6 +1,6 @@
 # Project Vegas Linux reference client — second setup study
 
-**1.7.0-alpha.2 is setup-only.** Transactions are disabled. This is not the complete V1.7 release, a wallet launch, or approval to hold valuable assets. Use a fresh empty identity. No test ETH or sponsor refill is needed.
+**1.7.0-alpha.2 is setup-only.** Transactions are disabled. This is not the complete V1.7 release, a wallet launch, or approval to hold valuable assets. Use the empty study identity from the first session. No test ETH or sponsor refill is needed.
 
 Supported study target: Linux x86_64, Ubuntu 24.04 (tested under WSL2). Native Windows, macOS and mobile are not supported. Installation uses system Python 3.11+, OpenSSH `ssh-keygen`, `sha256sum`, `tar` and `curl`; no compiler, Go/Rust/Node toolchain, private repository or developer cache is needed. Runtime dependencies/proving artifacts are bundled. Allow approximately 1 GB free disk for download, extraction and installation. No proof is generated in this setup session.
 
