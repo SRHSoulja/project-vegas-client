@@ -73,3 +73,5 @@ Release builders: use Go 1.27.1 and Linux `bwrap`, then invoke `apps/reference-c
 [Alpha.2 guided restore/restart study](ALPHA2_STUDY.md) is available as a separate authenticated candidate. Its guide uses an isolated study home to preserve the existing alpha.1 installation and identity. No transaction funding is required. Alpha.1 release assets and the original instructions above remain unchanged. Full V1.7 transaction/recovery acceptance remains open.
 
 The separately versioned [rc.1 transaction integration candidate](RC1_INTEGRATION.md) is for operator validation. The next human setup task remains alpha.2; V1.7 is open.
+
+[rc.2](RC2_INTEGRATION.md) is the separately authenticated path-guidance fix, with a prepared unfunded empty-gas-wallet study. Existing alpha/rc releases are preserved.
